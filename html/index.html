@@ -1,9 +1,15 @@
-<!doctype html>
-
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <title> Kids Are Weird </title>
 </head>
-<body>
+<body>This is my lab<br><br>
   <div id="image">
   </div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+<SCRIPT>
+	var url = "https://s3.amazonaws.com/learn-verified/painting-with-dog.gif";
+	$("#image").append(`<img src="${url}">`);
+</SCRIPT>
 </body>
+</html>
